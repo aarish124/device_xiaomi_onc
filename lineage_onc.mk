@@ -36,7 +36,7 @@ TARGET_VENDOR := Xiaomi
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="onc-user 9 PKQ1.181021.001 V10.3.6.0.PFLINXM release-keys"
+    PRIVATE_BUILD_DESC="onc-user 9 PKQ1.181021.001 V10.3.2.0.PFFINXM release-keys"
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
-BUILD_FINGERPRINT := "xiaomi/onc/onc:9/PKQ1.181021.001/V10.3.6.0.PFLINXM:user/release-keys"
+BUILD_FINGERPRINT := "xiaomi/onc/onc:9/PKQ1.181021.001/V10.3.2.0.PFFINXM:user/release-keys"
