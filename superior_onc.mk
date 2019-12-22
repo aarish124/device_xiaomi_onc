@@ -21,12 +21,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from onc device
 $(call inherit-product, device/xiaomi/onc/device.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common Superior stuff.
+$(call inherit-product, vendor/superior/config/common.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := onc
-PRODUCT_NAME := lineage_onc
+PRODUCT_NAME := superior_onc
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 7
